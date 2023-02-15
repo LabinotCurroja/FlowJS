@@ -277,22 +277,7 @@ function importFlowJS()
 
   }
 
-  class Store
-  {
-    constructor()
-    {
-      this.store = {}
-    }
-
-    subscribe = () => /* function to subscribe to the public data store. This means, on the next update, it will update this data */
-    {
-
-    }
-
-
-
-  }
-
+ 
 
   return {
 
