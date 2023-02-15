@@ -196,14 +196,12 @@ function importFlowJS()
   function updateDomProperties(dom, prevProps, nextProps) 
   {
 
-    /* IF IT IS AN INPUT, WE WANT TO TOTALLY REPLACE IT WITH replaceWith() - not just update it, as browsers tend to not update the context switch on type change due to security */
     const isEvent     = name => name.startsWith("on");
     const isAttribute = name => !isEvent(name) && name != "children";
     const isStyle     = name => name == "style";
 
 
     // Remove event listeners
-    
     Object.keys(prevProps).filter(isEvent).forEach(name => 
     {
       const eventType = name.toLowerCase().substring(2);
@@ -212,7 +210,6 @@ function importFlowJS()
     
 
     // Remove attributes
-    
     Object.keys(prevProps).filter(isAttribute).forEach(name => 
     {
         dom[name] = null;
