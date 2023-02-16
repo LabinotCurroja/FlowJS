@@ -1,5 +1,5 @@
 # FlowJS
-A minimal reactive UI library 
+> A minimal reactive UI library 
 
 
 ```Javascript 
