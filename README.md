@@ -7,7 +7,7 @@
 ```Javascript 
 
 
-
+> Example Component 
 export class Counter extends Flow.Component
 {
     constructor(props)
