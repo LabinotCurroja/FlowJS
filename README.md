@@ -1,7 +1,7 @@
 # FlowJS
 > A minimal reactive UI library 
 
-![FlowJS](https://imgur.com/jFgGR65)
+
 
 
 ```Javascript 
