@@ -3,11 +3,10 @@
 
 <img src="https://i.imgur.com/jFgGR65.png" width="200" height="100">
 
-
+> Example Component 
 ```Javascript 
 
 
-> Example Component 
 export class Counter extends Flow.Component
 {
     constructor(props)
