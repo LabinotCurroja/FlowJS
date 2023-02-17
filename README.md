@@ -1,7 +1,7 @@
 # FlowJS
 > A minimal reactive UI library 
 
-[![FlowJS]([/assets/images/shiprock.jpg](https://imgur.com/jFgGR65) "Reactive UI library")](https://imgur.com/jFgGR65)
+![FlowJS](https://imgur.com/jFgGR65)
 
 
 ```Javascript 
