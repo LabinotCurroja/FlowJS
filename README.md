@@ -1,7 +1,7 @@
 # FlowJS
 > A minimal reactive UI library 
 
-<img src="https://imgur.com/a/XpEAP4P" width="200" height="100">
+<img src="https://i.imgur.com/jFgGR65.png" width="200" height="100">
 
 
 ```Javascript 
